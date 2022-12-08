@@ -1,45 +1,42 @@
-const express = require('express')
-const fs = require('fs')
+//ROUTES FOR USERS
+exports.getAllUsers = (req, res) => {
+  res.status(500).json({
+    status: 'error',
+    message: 'Route is not yet defined!',
+  });
+};
 
-//ROUTES FOR USERS 
-exports.getAllUsers = (req, res) => { 
-    res.status(500).json({ 
-        status: 'error', 
-        message: 'Route is not yet defined!'
-    })
-}
+exports.getUser = (req, res) => {
+  res.status(500).json({
+    status: 'error',
+    message: 'Route is not yet defined!',
+  });
+};
 
-exports.getUser = (req, res) => { 
-    res.status(500).json({ 
-        status: 'error', 
-        message: 'Route is not yet defined!'
-    })
-}
+exports.postUser = (req, res) => {
+  res.status(500).json({
+    status: 'error',
+    message: 'Route is not yet defined!',
+  });
+};
 
-exports.postUser = (req, res) => { 
-    res.status(500).json({ 
-        status: 'error', 
-        message: 'Route is not yet defined!'
-    })
-}
+exports.deleteUser = (req, res) => {
+  res.status(500).json({
+    status: 'error',
+    message: 'Route is not yet defined!',
+  });
+};
 
-exports.deleteUser = (req, res) => { 
-    res.status(500).json({ 
-        status: 'error', 
-        message: 'Route is not yet defined!'
-    })
-}
+exports.createUser = (req, res) => {
+  res.status(500).json({
+    status: 'error',
+    message: 'Route is not yet defined!',
+  });
+};
 
-exports.createUser = (req, res) => { 
-    res.status(500).json({ 
-        status: 'error', 
-        message: 'Route is not yet defined!'
-    })
-}
-
-exports.updateUser = (req, res) => { 
-    res.status(500).json({ 
-        status: 'error', 
-        message: 'Route is not yet defined!'
-    })
-}
+exports.updateUser = (req, res) => {
+  res.status(500).json({
+    status: 'error',
+    message: 'Route is not yet defined!',
+  });
+};
